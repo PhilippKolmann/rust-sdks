@@ -38,8 +38,12 @@ jobs:
           - os: windows-latest
             target: x86_64-pc-windows-msvc
           - os: windows-latest
+            target: x86_64-uwp-windows-msvc
+          - os: windows-latest
             target: aarch64-pc-windows-msvc
             #extraargs: --exclude livekit-api --exclude livekit-ffi # waiting for v0.17 of ring
+          - os: windows-latest
+            target: aarch64-uwp-windows-msvc
           - os: macos-latest
             target: x86_64-apple-darwin
           - os: macos-latest
