@@ -16,7 +16,7 @@ name: Builds
 
 on:
   push:
-    branches: ["main", "windows-uwp"]
+    branches: ["main"]
     paths:
       - livekit/**
       - libwebrtc/**
